@@ -1,19 +1,12 @@
 ﻿
 namespace TestProject1
 {
-    public class AnotherFixture : IDisposable
+    public class AnotherFixture
     {
-        public string somethingelse { get; private set; }
+        public string somethingElse { get; private set; }
         public AnotherFixture()
         {
-            somethingelse = new string("This is a different string");
-
-            // ... initialize data in the test database ...
-        }
-
-        public void Dispose()
-        {
-            // ... clean up test data from the database ...
+            somethingElse = new string("This is a different string");
         }
     }
     [CollectionDefinition("AnotherString Collection")]
