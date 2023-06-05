@@ -8,7 +8,7 @@ namespace TestProject1
 
         public ScratchStringTestClass02(AnotherFixture fixture)
         {
-            _something = fixture.somethingelse;
+            _something = fixture.somethingElse;
         }
 
         [Fact]
