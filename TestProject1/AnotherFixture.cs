@@ -3,10 +3,10 @@ namespace TestProject1
 {
     public class AnotherFixture : IDisposable
     {
-        public string somethingelse { get; private set; }
+        public string somethingElse { get; private set; }
         public AnotherFixture()
         {
-            somethingelse = new string("This is a different string");
+            somethingElse = new string("This is a different string");
 
             // ... initialize data in the test database ...
         }
